@@ -92,3 +92,5 @@ $config['rewrite_short_tags'] = FALSE;
 
 
 $config['proxy_ips'] = '';
+$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = '/tmp';
