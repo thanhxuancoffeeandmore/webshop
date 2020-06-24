@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
-$config['base_url'] = '';
+$config['base_url'] = 'https://dochoitrecon.herokuapp.com/webshop/';
 
 $config['index_page'] = 'index.php';
 
