@@ -3,6 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 $config['base_url'] = 'https://dochoitrecon.herokuapp.com/webshop/';
+$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = 'sys_get_temp_dir()';
 
 $config['index_page'] = 'index.php';
 
@@ -92,5 +94,3 @@ $config['rewrite_short_tags'] = FALSE;
 
 
 $config['proxy_ips'] = '';
-$config['sess_save_path'] = NULL;
-$config['sess_save_path'] = '/tmp';
