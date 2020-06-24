@@ -48,17 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/libraries/config.html
  */
- $config['sess_save_path'] = NULL;
-$config['sess_save_path'] = 'sys_get_temp_dir()';
-$config['sess_save_path'] = NULL;
-
-$config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'ci_session';
-$config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
-$config['sess_match_ip'] = FALSE;
-$config['sess_time_to_update'] = 300;
-$config['sess_regenerate_destroy'] = FALSE;
+ 
 class CI_Config {
 
 	/**
@@ -115,7 +105,7 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'https://dochoitrecon.herokuapp.com';
+				$base_url = 'https://dochoitrecon.herokuapp.com/';
 			}
 
 			$this->set_item('base_url', $base_url);
