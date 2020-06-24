@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'cluster0-3qy0y.mongodb.net',
-	'username' => 'webshopdochoi',
-	'password' => 'namnam89',
-	'database' => 'webshop',
+	'hostname' => 'www.db4free.net',
+	'username' => 'linh_shopdochoi',
+	'password' => 'Linh1234',
+	'database' => 'shopdochoi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
