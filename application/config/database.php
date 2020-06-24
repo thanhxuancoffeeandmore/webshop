@@ -10,7 +10,7 @@ $db['default'] = array(
 	'username' => 'linh_shopdochoi',
 	'password' => 'Linh1234',
 	'database' => 'shopdochoi',
-	'dbdriver' => '',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
