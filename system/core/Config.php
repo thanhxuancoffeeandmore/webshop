@@ -104,7 +104,7 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'https://dochoitrecon.herokuapp.com/';
+				$base_url = 'https://dochoitrecon.herokuapp.com/webshop/';
 			}
 
 			$this->set_item('base_url', $base_url);
