@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = 'https://dochoitrecon.herokuapp.com/';
 
 
-$ config ['sess_save_path'] = sys_get_temp_dir ();
+$ config ['sess_save_path'] = 'sys_get_temp_dir ()';
 
 
 $config['index_page'] = 'index.php';
