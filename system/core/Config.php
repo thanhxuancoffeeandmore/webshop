@@ -48,7 +48,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/user_guide/libraries/config.html
  */
- 
 class CI_Config {
 
 	/**
@@ -105,7 +104,7 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'https://dochoitrecon.herokuapp.com/';
+				$base_url = 'http://localhost/';
 			}
 
 			$this->set_item('base_url', $base_url);

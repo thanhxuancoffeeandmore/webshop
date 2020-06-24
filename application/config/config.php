@@ -56,7 +56,7 @@ $config['cache_query_string'] = FALSE;
 
 $config['encryption_key'] = '';
 
-$config['sess_driver'] = 'database';
+$config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = BASEPATH.'sessions';
