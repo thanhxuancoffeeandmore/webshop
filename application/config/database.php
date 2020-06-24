@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'cluster0-3qy0y.mongodb.net',
+	'username' => 'webshopdochoi',
+	'password' => 'namnam89',
 	'database' => 'webshop',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
