@@ -6,7 +6,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db4free.net',
+	'hostname' => 'https://db4free.net/phpMyAdmin/index.php',
 	'username' => 'linh_shopdochoi',
 	'password' => 'Linh1234',
 	'database' => 'shopdochoi',
